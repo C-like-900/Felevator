@@ -1,8 +1,5 @@
 ﻿#include <windows.h>
-#include <locale.h>
 #include <stdio.h>
-
-#define ALLOC(memeory)			if(!(memeory)) exit(1)
 
 int WINAPI wWinMain(_In_ HINSTANCE hInst, _In_opt_ HINSTANCE hInstPrev, _In_ wchar_t* cmdLine, _In_ int cmdShow)
 {
